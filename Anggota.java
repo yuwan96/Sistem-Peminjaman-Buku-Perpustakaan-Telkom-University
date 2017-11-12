@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author Hilman Fauzi Rijal
+ * @author Adityo Nugroho
  */
 public class Anggota {
     private String no,nim,nama;
