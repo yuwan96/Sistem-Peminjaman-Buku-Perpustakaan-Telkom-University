@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="139" failures="0" name="id.impal.pinjembuku.perpustakaan.cucumber_sistem_peminjaman_buku_perpus_telu.test.MainTest" time="1.241" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\bin"/>
+    <property name="java.vm.version" value="25.141-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ndaru\Documents\NetBeansProjects\Cucumber_Sistem_Peminjaman_Buku_Perpus_TelU"/>
+    <property name="java.runtime.version" value="1.8.0_141-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ndaru\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.2\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Program Files\Git\cmd;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\FPC\2.2.4\bin\i386-Win32;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ndaru"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ndaru"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_141\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_141"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.2\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Skenario: Admin berhasil mencari data Petugas" name="Dengan Admin mengetik id Petugas \&quot;56789\&quot; pada kolom cari berdasarkan id Petugas" time="0.016"/>
+  <testcase classname="Skenario: Admin berhasil mencari data Petugas" name="Dan Admin mengetik nama Petugas \&quot;Impal\&quot; pada kolom cari berdasarkan nama Petugas" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mencari data Petugas" name="Dan Admin mengetik telepon Petugas \&quot;0811333444\&quot; pada kolom cari berdasarkan telepon Petugas" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mencari data Petugas" name="Dan Admin mengetik password Petugas \&quot;98765\&quot; pada kolom cari berdasarkan password Petugas" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mencari data Petugas" name="Ketika Admin mengeklik tombol Cari" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mencari data Petugas" name="Maka respon cari data Petugas yang berhasil dengan \&quot;Menampilkan Data Petugas\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mencari data Petugas" name="Skenario: Admin berhasil mencari data Petugas" time="0"/>
+  <testcase classname="Skenario: Admin gagal mencari data Petugas" name="Dengan Admin mengetik id Petugas yang salah \&quot;123\&quot; pada kolom cari berdasarkan id Petugas" time="0"/>
+  <testcase classname="Skenario: Admin gagal mencari data Petugas" name="Dan Admin mengetik nama Petugas yang salah \&quot;Butet\&quot; pada kolom cari berdasarkan nama Petugas" time="0"/>
+  <testcase classname="Skenario: Admin gagal mencari data Petugas" name="Dan Admin mengetik telepon Petugas yang salah \&quot;082134\&quot; pada kolom cari berdasarkan telepon Petugas" time="0"/>
+  <testcase classname="Skenario: Admin gagal mencari data Petugas" name="Dan Admin mengetik password Petugas yang salah \&quot;12345678\&quot; pada kolom cari berdasarkan password Petugas" time="0"/>
+  <testcase classname="Skenario: Admin gagal mencari data Petugas" name="Ketika Admin mengeklik tombol Cari" time="0"/>
+  <testcase classname="Skenario: Admin gagal mencari data Petugas" name="Maka respon cari data Petugas yang gagal dengan \&quot;Memberi tahu bahwa keyword pencarian salah\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal mencari data Petugas" name="Skenario: Admin gagal mencari data Petugas" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data diri" name="Dengan Admin mengisi id yang baru dengan \&quot;654321\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data diri" name="Dan Admin mengisi nama yang baru dengan \&quot;Sisop\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data diri" name="Dan Admin mengisi jabatan yang baru dengan \&quot;Dosen\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data diri" name="Dan Admin mengisi password yang baru dengan \&quot;321321\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data diri" name="Ketika Admin mengeklik tombol Edit" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data diri" name="Maka respon edit data yang berhasil dengan \&quot;Admin berhasil mengubah data\&quot;" time="0.001"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data diri" name="Skenario: Admin berhasil mengubah data diri" time="0.001"/>
+  <testcase classname="Skenario: Admin gagal mengubah data diri" name="Dengan Admin mengisi id yang lama dengan \&quot;123456\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal mengubah data diri" name="Dan Admin mengisi nama yang lama dengan \&quot;Impal\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal mengubah data diri" name="Dan Admin mengisi jabatan yang lama dengan \&quot;Admin\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal mengubah data diri" name="Dan Admin mengisi password yang lama dengan \&quot;123123\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal mengubah data diri" name="Ketika Admin mengeklik tombol Edit" time="0"/>
+  <testcase classname="Skenario: Admin gagal mengubah data diri" name="Maka respon edit data yang gagal dengan \&quot;Terdapat duplikasi di sini\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal mengubah data diri" name="Skenario: Admin gagal mengubah data diri" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil mengubah data Buku" name="Dengan Petugas mengisi kode Buku yang baru dengan \&quot;FJ123\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil mengubah data Buku" name="Dan Petugas mengisi judul Buku yang baru dengan \&quot;Lord of The Ring\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil mengubah data Buku" name="Dan Petugas mengisi pengarang Buku yang baru dengan \&quot;Genjik\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil mengubah data Buku" name="Dan Petugas mengisi penerbit Buku yang baru dengan \&quot;Tempo\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil mengubah data Buku" name="Ketika Petugas mengeklik tombol Edit" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil mengubah data Buku" name="Maka respon edit data Buku yang berhasil dengan \&quot;Petugas berhasil mengubah data Buku\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil mengubah data Buku" name="Skenario: Petugas berhasil mengubah data Buku" time="0"/>
+  <testcase classname="Skenario: Petugas gagal mengubah data Buku" name="Dengan Petugas mengisi kode Buku yang lama dengan \&quot;123FJ\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas gagal mengubah data Buku" name="Dan Petugas mengisi judul Buku yang lama dengan \&quot;Mengejar Gerhana\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas gagal mengubah data Buku" name="Dan Petugas mengisi pengarang Buku yang lama dengan \&quot;JD Simatupang\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas gagal mengubah data Buku" name="Dan Petugas mengisi penerbit Buku yang lama dengan \&quot;Gramedia\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas gagal mengubah data Buku" name="Ketika Petugas mengeklik tombol Edit" time="0"/>
+  <testcase classname="Skenario: Petugas gagal mengubah data Buku" name="Maka respon edit data Buku yang gagal dengan \&quot;Terdapat duplikasi Data Buku di sini\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas gagal mengubah data Buku" name="Skenario: Petugas gagal mengubah data Buku" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data Petugas" name="Dengan Admin mengisi id Petugas yang baru dengan \&quot;224248\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data Petugas" name="Dan Admin mengisi nama Petugas yang baru dengan \&quot;Joni\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data Petugas" name="Dan Admin mengisi telepon Petugas yang baru dengan \&quot;0812234234\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data Petugas" name="Dan Admin mengisi password Petugas yang baru dengan \&quot;111112\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data Petugas" name="Ketika Admin mengeklik tombol Edit" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data Petugas" name="Maka respon edit data Petugas yang berhasil dengan \&quot;Admin berhasil mengubah data Petugas\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil mengubah data Petugas" name="Skenario: Admin berhasil mengubah data Petugas" time="0"/>
+  <testcase classname="Skenario: Admin gagal mengubah data Petugas" name="Dengan Admin mengisi id Petugas yang lama dengan \&quot;56789\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal mengubah data Petugas" name="Dan Admin mengisi nama Petugas yang lama dengan \&quot;Impal\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal mengubah data Petugas" name="Dan Admin mengisi telepon Petugas yang lama dengan \&quot;0811333444\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal mengubah data Petugas" name="Dan Admin mengisi password Petugasyang lama dengan \&quot;98765\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal mengubah data Petugas" name="Ketika Admin mengeklik tombol Edit" time="0"/>
+  <testcase classname="Skenario: Admin gagal mengubah data Petugas" name="Maka respon edit data Petugas yang gagal dengan \&quot;Terdapat duplikasi Data Petugas di sini\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal mengubah data Petugas" name="Skenario: Admin gagal mengubah data Petugas" time="0.001"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data diri" name="Dengan Admin menghapus id dengan \&quot;\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data diri" name="Dan Admin menghapus nama dengan \&quot;\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data diri" name="Dan Admin menghapus jabatan dengan \&quot;\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data diri" name="Dan Admin menghapus password dengan \&quot;\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data diri" name="Ketika Admin mengeklik tombol Hapus" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data diri" name="Maka respon hapus data yang berhasil dengan \&quot;Admin berhasil menghapus data\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data diri" name="Skenario: Admin berhasil menghapus data diri" time="0.001"/>
+  <testcase classname="Skenario: Penjaga berhasil menghapus data Buku" name="Dengan Penjaga menghapus kode Buku dengan \&quot;\&quot;" time="0.001"/>
+  <testcase classname="Skenario: Penjaga berhasil menghapus data Buku" name="Dan Penjaga menghapus judul Buku dengan \&quot;\&quot;" time="0.001"/>
+  <testcase classname="Skenario: Penjaga berhasil menghapus data Buku" name="Dan Penjaga menghapus pengarang Buku dengan \&quot;\&quot;" time="0"/>
+  <testcase classname="Skenario: Penjaga berhasil menghapus data Buku" name="Dan Penjaga menghapus penerbit Buku dengan \&quot;\&quot;" time="0"/>
+  <testcase classname="Skenario: Penjaga berhasil menghapus data Buku" name="Ketika Penjaga mengeklik tombol Hapus" time="0"/>
+  <testcase classname="Skenario: Penjaga berhasil menghapus data Buku" name="Maka respon hapus data Buku yang berhasil dengan \&quot;Penjaga berhasil menghapus data Buku\&quot;" time="0"/>
+  <testcase classname="Skenario: Penjaga berhasil menghapus data Buku" name="Skenario: Penjaga berhasil menghapus data Buku" time="0.003"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data Petugas" name="Dengan Admin menghapus id Petugas dengan \&quot;\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data Petugas" name="Dan Admin menghapus nama Petugas dengan \&quot;\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data Petugas" name="Dan Admin menghapus telepon Petugas dengan \&quot;\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data Petugas" name="Dan Admin menghapus password Petugas dengan \&quot;\&quot;" time="0.001"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data Petugas" name="Ketika Admin mengeklik tombol Hapus" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data Petugas" name="Maka respon hapus data Petugas yang berhasil dengan \&quot;Admin berhasil menghapus data Petugas\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menghapus data Petugas" name="Skenario: Admin berhasil menghapus data Petugas" time="0.001"/>
+  <testcase classname="Skenario: Admin berhasil login" name="Dengan Admin mengisi id yang benar dengan \&quot;123456\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil login" name="Dan Admin mengisi password yang benar dengan \&quot;123123\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil login" name="Ketika Admin mengeklik tombol Login" time="0"/>
+  <testcase classname="Skenario: Admin berhasil login" name="Maka respon berhasil untuk Admin dengan \&quot;Anda berhasil login sebagai Admin\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil login" name="Skenario: Admin berhasil login" time="0"/>
+  <testcase classname="Skenario: Admin gagal login" name="Dengan Admin mengisi id yang salah dengan \&quot;123123\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal login" name="Dan Admin mengisi password yang salah dengan \&quot;123456\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal login" name="Ketika Admin mengeklik tombol Login" time="0"/>
+  <testcase classname="Skenario: Admin gagal login" name="Maka respon gagal untuk Admin dengan \&quot;Data login yang anda masukkan tidak valid\&quot;" time="0.001"/>
+  <testcase classname="Skenario: Admin gagal login" name="Skenario: Admin gagal login" time="0.001"/>
+  <testcase classname="Skenario: Petugas berhasil login" name="Dengan Petugas mengisi id yang benar dengan \&quot;56789\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil login" name="Dan Petugas mengisi password yang benar dengan \&quot;98765\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil login" name="Ketika Petugas mengeklik tombol Login" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil login" name="Maka respon berhasil untuk Petugas dengan \&quot;Anda berhasil login sebagai Petugas\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil login" name="Skenario: Petugas berhasil login" time="0"/>
+  <testcase classname="Skenario: Petugas gagal login" name="Dengan Petugas mengisi id yang salah dengan \&quot;01234\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas gagal login" name="Dan Petugas mengisi password yang salah dengan \&quot;43210\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas gagal login" name="Ketika Petugas mengeklik tombol Login" time="0"/>
+  <testcase classname="Skenario: Petugas gagal login" name="Maka respon gagal untuk Petugas dengan \&quot;Data login yang anda masukkan tidak valid\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas gagal login" name="Skenario: Petugas gagal login" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data diri" name="Dengan Admin mengisi id yang benar dengan \&quot;123456\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data diri" name="Dan Admin mengisi nama yang benar dengan \&quot;Impal\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data diri" name="Dan Admin mengisi jabatan yang benar dengan \&quot;Admin\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data diri" name="Dan Admin mengisi password yang benar dengan \&quot;123123\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data diri" name="Ketika Admin mengeklik tombol Tambah" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data diri" name="Maka respon tambah data yang berhasil dengan \&quot;Admin berhasil menambah data\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data diri" name="Skenario: Admin berhasil menambah data diri" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data diri" name="Dengan Admin mengisi id yang salah dengan \&quot;123123\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data diri" name="Dan Admin mengisi nama yang salah dengan \&quot;Lupa\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data diri" name="Dan Admin mengisi jabatan yang salah dengan \&quot;Dosen\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data diri" name="Dan Admin mengisi password yang salah dengan \&quot;123456\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data diri" name="Ketika Admin mengeklik tombol Tambah" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data diri" name="Maka respon tambah data yang gagal dengan \&quot;Admin gagal menambah data\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data diri" name="Skenario: Admin gagal menambah data diri" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil menambah data Buku" name="Dengan Petugas mengisi kode buku yang benar dengan \&quot;J5ZFFH\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil menambah data Buku" name="Dan Petugas mengisi judul buku yang benar dengan \&quot;Orang-Orang di Persimpangan Kiri Jalan\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil menambah data Buku" name="Dan Petugas mengisi pengarang buku yang benar dengan \&quot;Soe Hok Gie\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil menambah data Buku" name="Dan Petugas mengisi penerbit buku yang benar dengan \&quot;Lentera Merah\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil menambah data Buku" name="Ketika Petugas mengeklik tombol Tambah" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil menambah data Buku" name="Maka respon tambah data Buku yang berhasil dengan \&quot;Petugas berhasil menambah data Buku\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas berhasil menambah data Buku" name="Skenario: Petugas berhasil menambah data Buku" time="0"/>
+  <testcase classname="Skenario: Petugas gagal menambah data Buku" name="Dengan Petugas mengisi kode buku yang salah dengan \&quot;123FJ\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas gagal menambah data Buku" name="Dan Petugas mengisi judul buku yang salah dengan \&quot;Mengejar Gerhana\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas gagal menambah data Buku" name="Dan Petugas mengisi pengarang buku yang salah dengan \&quot;JD Simatupang\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas gagal menambah data Buku" name="Dan Petugas mengisi penerbit buku yang salah dengan \&quot;Gramedia\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas gagal menambah data Buku" name="Ketika Petugas mengeklik tombol Tambah" time="0"/>
+  <testcase classname="Skenario: Petugas gagal menambah data Buku" name="Maka respon tambah data Buku yang gagal dengan \&quot;Buku tersebut sudah terdata\&quot;" time="0"/>
+  <testcase classname="Skenario: Petugas gagal menambah data Buku" name="Skenario: Petugas gagal menambah data Buku" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data Petugas" name="Dengan Admin mengisi id petugas yang benar dengan \&quot;56789\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data Petugas" name="Dan Admin mengisi nama Petugas yang benar dengan \&quot;Impal\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data Petugas" name="Dan Admin mengisi telepon Petugas yang benar dengan \&quot;0811333444\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data Petugas" name="Dan Admin mengisi password Petugas yang benar dengan \&quot;98765\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data Petugas" name="Ketika Admin mengeklik tombol Tambah" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data Petugas" name="Maka respon tambah data Petugas yang berhasil dengan \&quot;Admin berhasil menambah data Petugas\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin berhasil menambah data Petugas" name="Skenario: Admin berhasil menambah data Petugas" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data Petugas" name="Dengan Admin mengisi id Petugas yang salah dengan \&quot;\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data Petugas" name="Dan Admin mengisi nama Petugas yang salah dengan \&quot;\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data Petugas" name="Dan Admin mengisi telepon Petugas yang salah dengan \&quot;\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data Petugas" name="Dan Admin mengisi password Petugas yang salah dengan \&quot;\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data Petugas" name="Ketika Admin mengeklik tombol Tambah" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data Petugas" name="Maka respon tambah data Petugas yang gagal dengan \&quot;Admin gagal menambah data Petugas\&quot;" time="0"/>
+  <testcase classname="Skenario: Admin gagal menambah data Petugas" name="Skenario: Admin gagal menambah data Petugas" time="0"/>
+</testsuite>
