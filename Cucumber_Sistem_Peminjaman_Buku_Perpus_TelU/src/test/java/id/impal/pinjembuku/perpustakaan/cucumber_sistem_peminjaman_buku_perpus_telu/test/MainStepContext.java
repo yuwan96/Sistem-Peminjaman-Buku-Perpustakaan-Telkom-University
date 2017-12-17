@@ -648,5 +648,420 @@ public class MainStepContext {
         String result = "Penjaga berhasil menghapus data Buku";
         assertEquals(arg1, result);
     }
+    
+    //Tambah Data Anggota
+    @Dengan("^Petugas mengisi nomor anggota yang benar dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nomor_anggota_yang_benar_dengan(String arg1) throws Throwable {
+        String result = "123";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi nim anggota yang benar dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nim_anggota_yang_benar_dengan(String arg1) throws Throwable {
+        String result = "1132124555";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi nama anggota yang benar dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nama_anggota_yang_benar_dengan(String arg1) throws Throwable {
+        String result = "Jono";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi masa berlaku anggota yang benar dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_masa_berlaku_anggota_yang_benar_dengan(String arg1) throws Throwable {
+        String result = "11-12-2017";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon tambah data Anggota yang berhasil dengan \"([^\"]*)\"$")
+    public void respon_tambah_data_Anggota_yang_berhasil_dengan(String arg1) throws Throwable {
+        String result = "Petugas berhasil menambah data anggota";
+        assertEquals(arg1, result);
+    }
+    
+    @Dengan("^Petugas mengisi nomor anggota yang salah dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nomor_anggota_yang_salah_dengan(String arg1) throws Throwable {
+        String result = "124";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi nim anggota yang salah dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nim_anggota_yang_salah_dengan(String arg1) throws Throwable {
+        String result = "1132124556";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi nama anggota yang salah dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nama_anggota_yang_salah_dengan(String arg1) throws Throwable {
+        String result = "Joni";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi masa berlaku anggota yang salah dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_masa_berlaku_anggota_yang_salah_dengan(String arg1) throws Throwable {
+        String result = "11-12-2018";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon tambah data Anggota yang gagal dengan \"([^\"]*)\"$")
+    public void respon_tambah_data_Anggota_yang_gagal_dengan(String arg1) throws Throwable {
+        String result = "Petugas gagal menambah data anggota";
+        assertEquals(arg1, result);
+    }
+
+    //Edit Data Anggota
+    @Dengan("^Petugas mengisi nomor anggota yang baru dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nomor_anggota_yang_baru_dengan(String arg1) throws Throwable {
+        String result = "12345";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi nim anggota yang baru dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nim_anggota_yang_baru_dengan(String arg1) throws Throwable {
+        String result = "123456789";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi nama anggota yang baru dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nama_anggota_yang_baru_dengan(String arg1) throws Throwable {
+        String result = "Prapto";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi masa berlaku anggota yang baru dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_masa_berlaku_anggota_yang_baru_dengan(String arg1) throws Throwable {
+        String result = "12/03/2018";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon edit data Anggota yang berhasil dengan \"([^\"]*)\"$")
+    public void respon_edit_data_Anggota_yang_berhasil_dengan(String arg1) throws Throwable {
+        String result = "Petugas berhasil mengubah data Anggota";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi nomor anggota yang lama dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nomor_anggota_yang_lama_dengan(String arg1) throws Throwable {
+        String result = "123";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi nim anggota yang lama dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nim_anggota_yang_lama_dengan(String arg1) throws Throwable {
+        String result = "1132124555";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi nama anggota yang lama dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nama_anggota_yang_lama_dengan(String arg1) throws Throwable {
+        String result = "Jono";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi masa berlaku anggota yang lama dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_masa_berlaku_anggota_yang_lama_dengan(String arg1) throws Throwable {
+        String result = "11-12-2017";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon edit data Anggota yang gagal dengan \"([^\"]*)\"$")
+    public void respon_edit_data_Anggota_yang_gagal_dengan(String arg1) throws Throwable {
+        String result = "Terdapat duplikasi Data Anggota di sini";
+        assertEquals(arg1, result);
+    }
+    
+    //Hapus Data Anggota
+    @Dengan("^Penjaga menghapus nomor anggota dengan \"([^\"]*)\"$")
+    public void penjaga_menghapus_nomor_anggota_dengan(String arg1) throws Throwable {
+        String result = "";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Penjaga menghapus nim anggota dengan \"([^\"]*)\"$")
+    public void penjaga_menghapus_nim_anggota_dengan(String arg1) throws Throwable {
+        String result = "";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Penjaga menghapus nama anggota dengan \"([^\"]*)\"$")
+    public void penjaga_menghapus_nama_anggota_dengan(String arg1) throws Throwable {
+        String result = "";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Penjaga menghapus masa berlaku anggota dengan \"([^\"]*)\"$")
+    public void penjaga_menghapus_masa_berlaku_anggota_dengan(String arg1) throws Throwable {
+        String result = "";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon hapus data Anggota yang berhasil dengan \"([^\"]*)\"$")
+    public void respon_hapus_data_Anggota_yang_berhasil_dengan(String arg1) throws Throwable {
+        String result = "Penjaga berhasil menghapus data Anggota";
+        assertEquals(arg1, result);
+    }
+    
+    //Cari Data Anggota
+    @Dengan("^Petugas mengetik nomor Anggota \"([^\"]*)\" pada kolom cari berdasarkan id Petugas$")
+    public void petugas_mengetik_nomor_Anggota_pada_kolom_cari_berdasarkan_id_Petugas(String arg1) throws Throwable {
+        String result = "123";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengetik nim Anggota \"([^\"]*)\" pada kolom cari berdasarkan nama Petugas$")
+    public void petugas_mengetik_nim_Anggota_pada_kolom_cari_berdasarkan_nama_Petugas(String arg1) throws Throwable {
+        String result = "1132124555";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengetik nama Anggota \"([^\"]*)\" pada kolom cari berdasarkan telepon Petugas$")
+    public void petugas_mengetik_nama_Anggota_pada_kolom_cari_berdasarkan_telepon_Petugas(String arg1) throws Throwable {
+        String result = "Jono";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengetik masa berlaku Anggota \"([^\"]*)\" pada kolom cari berdasarkan password Petugas$")
+    public void petugas_mengetik_masa_berlaku_Anggota_pada_kolom_cari_berdasarkan_password_Petugas(String arg1) throws Throwable {
+        String result = "11-12-2017";
+        assertEquals(arg1, result);
+    }
+
+    @Ketika("^Petugas mengeklik tombol Cari$")
+    public void petugas_mengeklik_tombol_Cari() throws Throwable {
+        boolean expected = true;
+        boolean result = true;
+        assertEquals(expected, result);
+    }
+
+    @Maka("^respon cari data Anggota yang berhasil dengan \"([^\"]*)\"$")
+    public void respon_cari_data_Anggota_yang_berhasil_dengan(String arg1) throws Throwable {
+        String result = "Menampilkan Data Anggota";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengetik nomor Anggota yang salah \"([^\"]*)\" pada kolom cari berdasarkan id Petugas$")
+    public void petugas_mengetik_nomor_Anggota_yang_salah_pada_kolom_cari_berdasarkan_id_Petugas(String arg1) throws Throwable {
+        String result = "125";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengetik nim Anggota yang salah \"([^\"]*)\" pada kolom cari berdasarkan nama Petugas$")
+    public void petugas_mengetik_nim_Anggota_yang_salah_pada_kolom_cari_berdasarkan_nama_Petugas(String arg1) throws Throwable {
+        String result = "Butet";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengetik nama Anggota yang salah \"([^\"]*)\" pada kolom cari berdasarkan telepon Petugas$")
+    public void petugas_mengetik_nama_Anggota_yang_salah_pada_kolom_cari_berdasarkan_telepon_Petugas(String arg1) throws Throwable {
+        String result = "123987";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengetik masa berlaku Anggota yang salah \"([^\"]*)\" pada kolom cari berdasarkan password Petugas$")
+    public void petugas_mengetik_masa_berlaku_Anggota_yang_salah_pada_kolom_cari_berdasarkan_password_Petugas(String arg1) throws Throwable {
+        String result = "10-10-2010";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon cari data Anggota yang gagal dengan \"([^\"]*)\"$")
+    public void respon_cari_data_Anggota_yang_gagal_dengan(String arg1) throws Throwable {
+        String result = "Memberi tahu bahwa keyword pencarian salah";
+        assertEquals(arg1, result);
+    }
+    
+    //Cetak Kartu Anggota
+    @Dengan("^Petugas mencari data anggota yang \"([^\"]*)\"$")
+    public void petugas_mencari_data_anggota_yang(String arg1) throws Throwable {
+        String result = "ada";
+        assertEquals(arg1, result);
+    }
+
+    @Ketika("^Petugas mengeklik tombol Cetak$")
+    public void petugas_mengeklik_tombol_Cetak() throws Throwable {
+        boolean expected = true;
+        boolean result = true;
+        assertEquals(expected, result);
+    }
+
+    @Maka("^respon cetak kartu Anggota yang berhasil dengan \"([^\"]*)\"$")
+    public void respon_cetak_kartu_Anggota_yang_berhasil_dengan(String arg1) throws Throwable {
+        String result = "Harap tunggu, pencetakan sedang berlangsung";
+        assertEquals(arg1, result);
+    }
+    
+    //Tambah Data Peminjaman Baru
+    @Dengan("^Petugas mengisi nomor Peminjaman yang benar dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nomor_Peminjaman_yang_benar_dengan(String arg1) throws Throwable {
+        String result = "J1265";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi tanggal Peminjaman yang benar dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_tanggal_Peminjaman_yang_benar_dengan(String arg1) throws Throwable {
+        String result = "12-01-2018";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi status Peminjaman yang benar dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_status_Peminjaman_yang_benar_dengan(String arg1) throws Throwable {
+        String result = "sedang dipinjam";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi jumlah buku dipinjam yang benar dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_jumlah_buku_dipinjam_yang_benar_dengan(String arg1) throws Throwable {
+        String result = "2";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon tambah data Peminjaman yang berhasil dengan \"([^\"]*)\"$")
+    public void respon_tambah_data_Peminjaman_yang_berhasil_dengan(String arg1) throws Throwable {
+        String result = "Petugas berhasil menambah data Peminjaman";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi nomor Peminjaman yang salah dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nomor_Peminjaman_yang_salah_dengan(String arg1) throws Throwable {
+        String result = "";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi tanggal Peminjaman yang salah dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_tanggal_Peminjaman_yang_salah_dengan(String arg1) throws Throwable {
+        String result = "";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi status Peminjaman yang salah dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_status_Peminjaman_yang_salah_dengan(String arg1) throws Throwable {
+        String result = "";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi jumlah buku dipinjam yang salah dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_jumlah_buku_dipinjam_yang_salah_dengan(String arg1) throws Throwable {
+        String result = "";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon tambah data Peminjaman yang gagal dengan \"([^\"]*)\"$")
+    public void respon_tambah_data_Peminjaman_yang_gagal_dengan(String arg1) throws Throwable {
+        String result = "Petugas gagal menambah data Peminjaman";
+        assertEquals(arg1, result);
+    }
+    
+    //Cari Data Peminjaman
+    @Dengan("^Petugas mengetik nomor Peminjaman \"([^\"]*)\"$")
+    public void petugas_mengetik_nomor_Peminjaman(String arg1) throws Throwable {
+        String result = "J1265";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon cari data Peminjaman yang berhasil dengan \"([^\"]*)\"$")
+    public void respon_cari_data_Peminjaman_yang_berhasil_dengan(String arg1) throws Throwable {
+        String result = "Menampilkan Detail Data Peminjaman";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengetik nomor Peminjaman yang salah \"([^\"]*)\"$")
+    public void petugas_mengetik_nomor_Peminjaman_yang_salah(String arg1) throws Throwable {
+        String result = "";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon cari data Peminjaman yang gagal dengan \"([^\"]*)\"$")
+    public void respon_cari_data_Peminjaman_yang_gagal_dengan(String arg1) throws Throwable {
+        String result = "Memberi tahu bahwa keyword pencarian salah";
+        assertEquals(arg1, result);
+    }
+    
+    //Cetak Laporan Peminjaman
+    @Dengan("^Petugas membuka detail data peminjaman yang \"([^\"]*)\"$")
+    public void petugas_membuka_detail_data_peminjaman_yang(String arg1) throws Throwable {
+        String result = "ada";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon cetak Laporan Peminjaman yang berhasil dengan \"([^\"]*)\"$")
+    public void respon_cetak_Laporan_Peminjaman_yang_berhasil_dengan(String arg1) throws Throwable {
+        String result = "Harap tunggu, pencetakan sedang berlangsung";
+        assertEquals(arg1, result);
+    }
+    
+    //Tambah Data Pengembalian
+    @Dengan("^Petugas mengisi nomor Pengembalian yang benar dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nomor_Pengembalian_yang_benar_dengan(String arg1) throws Throwable {
+        String result = "K1265";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi total denda yang benar dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_total_denda_yang_benar_dengan(String arg1) throws Throwable {
+        String result = "0";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon tambah data Pengembalian yang berhasil dengan \"([^\"]*)\"$")
+    public void respon_tambah_data_Pengembalian_yang_berhasil_dengan(String arg1) throws Throwable {
+        String result = "Petugas berhasil menambah data Pengembalian";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi nomor Pengembalian yang salah dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_nomor_Pengembalian_yang_salah_dengan(String arg1) throws Throwable {
+        String result = "";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengisi total denda yang salah dengan \"([^\"]*)\"$")
+    public void petugas_mengisi_total_denda_yang_salah_dengan(String arg1) throws Throwable {
+        String result = "";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon tambah data Pengembalian yang gagal dengan \"([^\"]*)\"$")
+    public void respon_tambah_data_Pengembalian_yang_gagal_dengan(String arg1) throws Throwable {
+        String result = "Petugas gagal menambah data Pengembalian";
+        assertEquals(arg1, result);
+    }
+    
+    //Cari Data Pengembalian
+    @Dengan("^Petugas mengetik nomor Pengembalian \"([^\"]*)\"$")
+    public void petugas_mengetik_nomor_Pengembalian(String arg1) throws Throwable {
+        String result = "K1265";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon cari data Pengembalian yang berhasil dengan \"([^\"]*)\"$")
+    public void respon_cari_data_Pengembalian_yang_berhasil_dengan(String arg1) throws Throwable {
+        String result = "Menampilkan Detail Data Pengembalian";
+        assertEquals(arg1, result);
+    }
+
+    @Dengan("^Petugas mengetik nomor Pengembalian yang salah \"([^\"]*)\"$")
+    public void petugas_mengetik_nomor_Pengembalian_yang_salah(String arg1) throws Throwable {
+        String result = "";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon cari data Pengembalian yang gagal dengan \"([^\"]*)\"$")
+    public void respon_cari_data_Pengembalian_yang_gagal_dengan(String arg1) throws Throwable {
+        String result = "Memberi tahu bahwa keyword pencarian salah";
+        assertEquals(arg1, result);
+    }
+    
+    //Cetak Laporan Pengembalian
+    @Dengan("^Petugas membuka detail data pengembalian yang \"([^\"]*)\"$")
+    public void petugas_membuka_detail_data_pengembalian_yang(String arg1) throws Throwable {
+        String result = "ada";
+        assertEquals(arg1, result);
+    }
+
+    @Maka("^respon cetak Laporan Pengembalian yang berhasil dengan \"([^\"]*)\"$")
+    public void respon_cetak_Laporan_Pengembalian_yang_berhasil_dengan(String arg1) throws Throwable {
+        String result = "Harap tunggu, pencetakan sedang berlangsung";
+        assertEquals(arg1, result);
+    }
 
 }
