@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package id.impal.pinjembuku.perpustakaan.cucumber_sistem_peminjaman_buku_perpus_telu;
 
 /**
  *
  * @author ndaru
  */
-
 public class Buku {
     private String kode,judul,pengarang,penerbit;
     private int jumlah;

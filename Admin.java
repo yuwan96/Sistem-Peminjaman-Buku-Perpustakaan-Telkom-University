@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package id.impal.pinjembuku.perpustakaan;
-
+package id.impal.pinjembuku.perpustakaan.cucumber_sistem_peminjaman_buku_perpus_telu;
 /**
  *
- * @author Yuwantoro
+ * @author ndaru
  */
 public class Admin {
+
     private String id, nama, jabatan, pass;
 
     public Admin() {
