@@ -5,7 +5,7 @@
  */
 package id.impal.pinjembuku.perpustakaan.cucumber_sistem_peminjaman_buku_perpus_telu;
 
-import id.impal.pinjembuku.perpustakaan.cucumber_sistem_peminjaman_buku_perpus_telu.Admin;
+import id.impal.pinjembuku.perpustakaan.cucumber_sistem_peminjaman_buku_perpus_telu.Petugas;
 
 /**
  *
@@ -13,6 +13,7 @@ import id.impal.pinjembuku.perpustakaan.cucumber_sistem_peminjaman_buku_perpus_t
  */
 public class Main {
     public static void main(String []args){
-        System.out.println("Tes dulu");
+        Petugas petugas = new Petugas();
+        petugas.petugasLogin("56789", "98765");
     }
 }
